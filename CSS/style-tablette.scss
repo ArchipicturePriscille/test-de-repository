@@ -1,0 +1,27 @@
+
+
+@media all and (min-width: 760px) and (max-width: 992px) {
+  
+ /* RÉGLAGES DES BOUTONS FLOTTANTS DE PARTAGE */
+
+div.nc_wrapper.floatBottom {
+  	background-color: black !important;
+justify-content: center !important;
+}
+	
+div.nc_socialPanel.swp_connected.swp_d_customColor.swp_i_customColor.swp_o_customColor.scale-100.scale-right.nc_floater.swp_two {
+	width: 100% !important;
+	left: 0px !important;
+}
+
+
+}
+
+
+@media screen and (max-width: 1200px) {
+
+	.tag-description .picture img{
+		margin-left: 8%;
+	}
+
+}

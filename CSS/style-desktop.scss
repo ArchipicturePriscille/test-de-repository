@@ -1,0 +1,104 @@
+/* @override 
+	https://www.photoweb.fr/espaces/magazine/wp-content/themes/bb-theme-child/style-desktop.css */
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 760px) {
+
+/* @group POST-HEADER */
+/*pré-footer ZONE GAUCHE*/
+/*bouton s'inscrire*/
+div#ap-bouton-inscription-newsletter.fl-module.fl-module-button.fl-node-595a3181edcd5 div.fl-module-content.fl-node-content div.fl-button-wrap.fl-button-width-auto.fl-button-center a.fl-button {
+	margin-left: 25px;
+	margin-bottom: 15px;
+}
+
+/*alignement horizontal texte et bouton */
+div.fl-col.fl-node-595a323927603.fl-col-small.ap-prefooter-droit div.fl-col-content.fl-node-content div.fl-module.fl-module-rich-text.fl-node-595a3181ede6a.ap-suivez-nous div.fl-module-content.fl-node-content div.fl-rich-text {
+display: flex;
+}
+
+
+/* Recevoir les news */
+
+#ap-recevoir-news P
+ {	margin-bottom: 0 !important;
+	margin-right: 15px;
+}
+
+
+/*pré-footer ZONE DROITE*/	
+
+
+
+
+/* réglage typo "suivez-nous" */
+div.ap-suivez-nous p{
+	font-size: 20px;
+		}
+
+/* alignement réseaux sociaux" */
+div#ap-reseaux-sociaux {
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	
+/* aligenemnt des pictos Facebook et instagram */
+p a img.ap-facebook.alignnone.wp-image-101.size-full {
+	margin-top: 20px;
+	margin-left: 15px; 
+	}
+
+p a img.ap-instagram.alignnone.wp-image-102.size-full{
+	margin-top: 20px;
+	margin-right: 0px !important;
+}
+
+
+
+	
+div.fl-module.fl-module-rich-text.fl-node-595a3181ede6a.ap-suivez-nous div.fl-module-content.fl-node-content div.fl-rich-text {
+    display: flex;
+    justify-content: flex-end;
+	margin-top: 10px;
+}
+/* @end */
+	
+
+	
+	/* @group POST-HEADER */
+
+#ap-menu-mentions-legales {
+	margin-top: 18px;
+}
+
+/* @end */
+	
+
+
+/* @group ARTICLES */
+	
+	.chapeau P {
+		text-align: center !important;
+	}
+	
+
+.produits-imprimer P{
+	font: 95px ;
+	line-height: 53pt;
+	}
+
+
+
+/* @end */
+}
+

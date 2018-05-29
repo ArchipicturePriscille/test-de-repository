@@ -1,0 +1,448 @@
+
+/* @group STUCTURE */
+
+/* tag */
+
+section.tags div.fl-content-full.container p{
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 12px;
+	font-weight: 800 !important;
+
+}
+
+section.tags div.fl-content-full.container p a{
+	font-size: 12px !important;
+	font-weight: 400 !important;
+
+}
+
+/* @end */
+
+
+
+
+/* @group ARTICLES, TEXTE & TITRES */
+
+div.homeCard div.contentWrapper div h1 {
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+p strong a, p a{
+	text-decoration: underline !important;
+}
+
+
+
+/* Styliser les listes */
+div.fl-module-content.fl-node-content div.fl-rich-text ul li {list-style-type: none;}
+
+div.fl-module-content.fl-node-content div.fl-rich-text ul li:before {
+	content: "• ";
+	color: black;}
+
+
+
+	/* H1 des pages de Tag */
+	div.row div.fl-content.col-md-12 header.fl-archive-header h1.fl-archive-title{
+		font: 40px 'inteloalt-extrabouploadedfile', normal !important;
+		font-style: normal;
+		color: black;
+		text-align: center;
+	}
+
+
+
+	/* texte en chapeau sur l'arcticle expert */
+	.chapeau p {
+		font: 20px 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		letter-spacing: 2px;
+	}
+
+	/* H2 dans les articles */
+	div.fl-module-content.fl-node-content div.fl-rich-text h2 strong, div.fl-module-content.fl-node-content div.fl-rich-text h2 {
+		margin-bottom: 30px;
+		font-size: 30px !important;
+	}
+
+
+
+
+	/* divider astuce */
+
+	.hr {
+		display: -webkit-box;
+		display: -moz-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+
+		-webkit-box-align: center;
+		-moz-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+		margin: 1em 20px;
+		font: 14px 'inteloalt-extrabouploadedfile', normal !important;
+
+		text-align: center;
+		color: #7c7c7c;
+	}
+	.hr::before, .hr::after {
+		content: '';
+
+		-webkit-box-flex: 1;
+		-moz-box-flex: 1;
+		-webkit-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+
+		margin: 0 15px;
+
+		border-bottom: 1px solid #000;
+		border-color: #7c7c7c;
+	}
+
+
+	.guillemets {
+		display: -webkit-box;
+		display: -moz-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+
+		-webkit-box-align: center;
+		-moz-box-align: center;
+		-webkit-align-items: center;
+		-ms-flex-align: center;
+		align-items: center;
+		margin: 0 20px;
+		font: 50px 'inteloalt-extrabouploadedfile', normal !important;
+
+		text-align: center;
+		color: #7c7c7c;
+	}
+	.guillemets::before, .guillemets::after {
+		content: '';
+
+		-webkit-box-flex: 1;
+		-moz-box-flex: 1;
+		-webkit-flex: 1;
+		-ms-flex: 1;
+		flex: 1;
+
+		margin: 0 15px;
+
+		border-bottom: 1px solid #000;
+		border-color: #7c7c7c;
+	}
+
+	.citation{
+		overflow: hidden;
+	}
+	/* citation de l'astuce */
+	.citation p {
+		font: 50px 'cheddar_jackregular';
+		color: black;
+	}
+
+
+
+	/* rotation de 5degré des blocs inclinés */
+	.citation p {
+		transform: rotate(-5deg);
+
+	}
+
+	/* conseil de du rédactuer dans l'article expert : zone noire en pied de page */
+	.conseil-texte p {
+		color: white;
+		font-size: 12px;
+	}
+
+	.conseil-titre p {
+		font: 20px 'inteloalt-extrabouploadedfile', normal !important;
+		font-size: 12px;
+		color: white;
+	}
+
+	/* signature de l'auteur de l'article : zone noire en pied de page */
+	.signature p {
+		font: 34px 'cheddar_jackregular';
+		color: white;
+	}
+
+/*
+.produits-imprimer p{
+/*		background: url(../img/imprimer-protuits-photo.png) center bottom no-repeat;*!/
+	padding-bottom: 15px;
+	line-height: 40px!important;
+	font-size: 75px;
+	}*/
+
+
+	/* bouton */
+
+
+
+	.fl-html {
+		text-align: center;
+	}
+
+	a.btn.btn-lg.btnGradient.orangeToYellow.texte-black {
+		color: black !important;
+		display: inline-block;
+		color:#000;
+	}
+	a.btn.btn-lg.btnGradient.orangeToYellow.texte-black:hover {
+		color:#fff !important;
+	}
+
+
+
+
+	/* @end */
+
+
+
+	/* @group RÉSEAU SOCIAUX*/
+
+ /*div.nc_socialpanelSide.nc_socialpanel.swp_default.swp_d_customColor.swp_i_customColor.swp_o_customColor.slide.swp_three div.nc_tweetContainer {
+	margin-top: 0 !important;
+ 	margin-bottom: 0 !important;
+ 	border-radius: 0px;
+ 	}*/
+
+
+
+ 	/* @end */
+
+
+
+
+
+
+ 	/* @group pRÉ-FOOTER------------------------------- */
+ 	/*pré-footer ZONE GAUCHE*/
+
+ 	.fl-node-595a323927595 .fl-col-content{
+ 		display: flex;
+ 		padding-top: 30px;
+ 		font-weight: normal;
+ 		font-style: normal;
+ 	}
+ /*recevoir les news de photoweb*/
+
+ #ap-pre-footer p{
+ 	font-family: 'inteloalt-extrabouploadedfile', normal !important;
+ 	letter-spacing: 1px;
+ }
+
+
+ /*texte s'inscrire*/
+ #ap-recevoir-news p {
+ 	font-family: 'inteloalt-extrabouploadedfile', normal !important;
+ 	color: #bcbcbc;
+ 	letter-spacing: 1px;
+ }
+
+ /*bouton s'inscrire*/
+ div#ap-bouton-inscription-newsletter.fl-module.fl-module-button.fl-node-595a3181edcd5 div.fl-module-content.fl-node-content div.fl-button-wrap.fl-button-width-auto.fl-button-center a.fl-button {
+ 	border: 3px solid #bcbcbc;
+ 	font-family: 'inteloalt-extrabouploadedfile', normal !important;
+ 	letter-spacing: 1px;
+ }
+
+
+ /*pré-footer ZONE DROITE*/
+
+/*div.fl-module.fl-module-rich-text.fl-node-595a3181ede6a.ap-suivez-nous div.fl-module-content.fl-node-content div.fl-rich-text p {
+		font-family: 'inteloalt-extrabouploadedfile', normal !important;
+	color: black;
+		letter-spacing: 1px;
+	margin-top: 15px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+div#ap-reseaux-sociaux a img.ap-instagram.alignnone.wp-image-102.size-full {
+	margin-right: 0;
+	}*/
+
+	div.ap-suivez-nous p {
+		font-family: 'inteloalt-extrabouploadedfile', normal !important;
+		color: black;
+		letter-spacing: 1px;
+		margin-top: 15px;
+		font-weight: normal;
+		font-style: normal;
+
+	}
+
+	div.fl-module.fl-module-html.fl-node-596f444d1fc14.ap-suivez-nous div.fl-module-content.fl-node-content div.fl-html p a.fb i.fa.fa-facebook, div.fl-module-content.fl-node-content div.fl-html p a.insta i.fa.fa-instagram{
+		font-size: 24px;
+		line-height: inherit;
+		color: black;
+		margin-left: 10px;
+	}
+
+
+
+	/* @end */
+
+
+
+
+	/* @group page TAG */
+
+
+	.tag-description {
+		text-align: center;
+		display: flex;
+		flex-wrap: wrap;
+		position: relative;
+		justify-content: space-around;
+	}
+
+	.tag-description .child:first-child {
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.tag-description .child:last-child {
+		font-size: 15px;
+	}
+	.tag-description .article + p {
+		text-align: center;
+		width: 100%
+	}
+	.tag-description .picture a {
+		margin-top: 20px;
+	}
+
+	.tag-description .child:not(:first-child) {
+		flex: auto;
+		width: 40%;
+	}
+	.tag-description .content{
+		text-align: left;
+	}
+
+	.tag-description .title-section h1 {
+		position: relative;
+		display: inline-block;
+		margin-bottom: 0px;
+	}
+	.tag-description .title-section h2 {
+		font-size: 25px;
+	}
+	.tag-description .title-section h1:after {
+		width: 100%;
+		display: inline-block;
+		height: 4px;
+		background:linear-gradient(to right,#6dc8bf 0%,#00abe9 24%,#d9308a 49%,#fffc00 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffed87',endColorstr='#00a3a3',GradientType=1);
+		content:"";
+		position: absolute;
+		left: 0;
+		bottom: -6px;
+		opacity: .5;
+	}
+
+	div.tag-description {
+		margin-top: 50px;
+		margin-bottom: 100px;
+	}
+
+	/* @end */
+
+
+
+	/* @group IDÉES CADEAUX */
+
+	div.bouton-boutique {
+		display: flex;
+		align-items: center;
+		flex-wrap: nowrap;
+		justify-content: space-between;
+	}
+
+	div.title-boutique p{
+		font-family: 'inteloalt-extrabouploadedfile';
+		font-size: 23px;
+		color: black;
+		line-height : 1em;
+
+	}
+
+	a.btn.btn-lg.btnGradient.orangeToYellow.voir-boutique {
+		font-family: 'inteloalt-extrabouploadedfile', normal;
+		font-size: 17px;
+		color: black !important;
+		overflow: visible;
+
+	}
+
+	div.card-idees-cadeaux {
+		background-color: white;
+		padding: 35px;
+		margin: 10px 20px 100px;
+
+		-moz-box-shadow: 0px 10px 30px 0px #cfcfcf;
+		-webkit-box-shadow: 0px 10px 30px 0px #cfcfcf;
+		-o-box-shadow: 0px 10px 30px 0px #cfcfcf;
+		box-shadow: 0px 10px 30px 0px #cfcfcf;
+		filter:progid:DXImageTransform.Microsoft.Shadow(color=#cfcfcf, Direction=180, Strength=30);
+
+	}
+
+	button.slick-prev {
+		left: -40px;
+		&:before {
+			content: "<";
+		}
+	}
+	button.slick-next {
+		right: -40px;
+		&:before {
+			content: ">";
+		}
+
+		button.slick-prev slick-arrow {
+			display: none !important;
+		}
+	}
+
+		/* @end */
+
+
+
+
+
+
+		/* @group FOOTER -----------------------------------------------------*/
+		/*footer : réglage du menu Catégories : capitales en début de mots*/
+
+
+/*ul#menu-categories-2.menu.fl-menu-vertical.fl-toggle-none li:first-letter  {
+	text-transform: uppercase;
+line-height: 100%;
+}
+ul#menu-categories-2.menu.fl-menu-vertical.fl-toggle-none{
+line-height: 100%;
+}*/
+
+div.fl-row-content.fl-row-fixed-width.fl-node-content ul {
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}
+
+
+ul#menu-mention-legales.menu.fl-menu-horizontal.fl-toggle-none	{
+	list-style-type: none;
+	margin:0;
+	padding:0;
+}

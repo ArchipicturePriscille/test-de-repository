@@ -1,0 +1,189 @@
+@media screen and (max-width: 768px) {
+
+	/*-----  custom etique header page -----------*/
+
+	.tag-description h1{
+		font-size: 34px;
+	}
+
+	.tag-description{
+		flex-wrap: nowrap;
+		flex-direction: column;
+	}
+
+	.tag-description .picture > img{
+		display: none ;
+	}
+
+	.tag-description .child:not(:first-child){
+		width: 100%
+	}	
+	
+}
+
+@media screen and (max-width: 760px) {
+  
+  
+ 
+ /* Réglage bouton social Warfare flottants en pide de page */
+ 
+div.nc_wrapper.floatBottom {
+   	background-color: black !important;
+ justify-content: center !important;
+ }
+ 	
+div.nc_socialPanel.swp_connected.swp_d_customColor.swp_i_customColor.swp_o_customColor.scale-100.scale-right.nc_floater.swp_two {
+ 	width: 100% !important;
+ 	left: 0px !important;
+ }
+ 
+ 
+ 
+ 
+  /* @group Pré-Footer------------------ */
+  
+  
+  /*pré-footer ZONE GAUCHE*/
+    .fl-node-595a323927595 .fl-col-content{
+  	display: flex;
+flex-direction: column;
+  }
+  
+  /*texte s'inscrire*/
+  #ap-recevoir-news P {
+  	text-align: center;
+  	font-size: 18px;
+  }
+  
+  /*bouton s'inscrire*/
+  #ap-bouton-inscription-newsletter div div {
+  	margin: auto auto 30px;
+  	display: block;
+  	  	margin-right: 0px !important;
+  }
+  
+   /*bande blanche entre les deux colonnes*/ 
+div.fl-col.fl-node-595a323927595.fl-col-small.ap-prefooter-gauche div.fl-col-content.fl-node-content {
+	border-right: thin solid white;
+}
+  
+    /*pré-footer ZONE DROITE*/
+  
+  div.ap-suivez-nous p{
+  	font-size: 20px !important;
+  	line-height: 100% !important;
+  
+  	text-align: center !important;
+  	margin-top: 45px !important;
+  }
+  
+div.fl-module.fl-module-html.fl-node-596f444d1fc14.ap-suivez-nous div.fl-module-content.fl-node-content div.fl-html p span {
+	margin: 15px auto 0;
+	display: block;
+   }
+  
+
+
+  
+/*div#ap-reseaux-sociaux {
+display: flex;
+    justify-content: center;
+}
+  */
+  
+/*  	
+ul#menu-mention-legales-1.menu.fl-menu-vertical.fl-toggle-none {
+  display: inline-block; 
+  text-aligne: center;
+  }*/
+
+.conseil-titre P {
+	text-align: left;
+}
+
+
+
+
+  /* @end */
+	
+
+	
+	/* @group FOOTER -------------------------------------------------------*/
+  
+  
+
+  /* ecartement des item des menu en version mobile */
+div.fl-row.fl-row-full-width.fl-row-bg-color.fl-node-59566ee01f407.ap-footer-noir div.fl-row-content-wrap div.fl-row-content.fl-row-fixed-width.fl-node-content ul li {
+    line-height: 200%;
+}
+
+/* @end */
+
+
+
+
+	/* @group POST-FOOTER -------------------------------------------------------*/
+div.fl-col-content.fl-node-content div.fl-module.fl-module-photo.fl-node-59579b0a2e611{
+	padding-top: 0px !important;
+ }
+	
+	/* filet gris au dessus du menu mentions légales */
+	
+	div.fl-col.fl-node-59579b0026931.fl-col-small div.fl-col-content.fl-node-content div.fl-module.fl-module-photo.fl-node-59579b0a2e611 {
+		border-bottom: 1px solid #505050;
+		padding-top: 20px;
+	}
+	
+	/* centrage menu mention légales + supression des puces */
+	
+	ul#menu-mention-legales.menu.fl-menu-horizontal.fl-toggle-none	{
+		list-style-type: none;
+		margin:0;
+		padding:0;
+		text-align: center;
+	}
+	
+	li#menu-item-89.menu-item.menu-item-type-custom.menu-item-object-custom a, li#menu-item-93.menu-item.menu-item-type-custom.menu-item-object-custom a {
+		text-align: center;
+	}
+	
+	div#ap-menu-mentions-legales.fl-module.fl-module-menu.fl-node-595ac8416dc4f {
+		padding-top: 15px;
+	
+	}
+	
+	ul#menu-mention-legales.menu.fl-menu-horizontal.fl-toggle-none {
+		margin-left: 20px;
+
+	}
+
+	/* @end */
+	
+
+
+ /* @group ARTICLES, TITRES ET TEXTES */
+ 
+/* .chapeau P {
+ 	font-size: 14px;
+ }
+ */
+
+ .produits-imprimer P{
+ 	font: 73px !important;
+ 	 }
+ 	 
+ 	 div.fl-module-content.fl-node-content div.fl-rich-text ul li {
+ 	 	font-size: 12px;
+ 	 }
+ 
+ /* @end */
+	
+	/* @group BOUTONS RESEAUX SOCIAUX */
+	
+div.nc_wrapper.floatBottom {
+	  	background-color: black !important;
+	  }
+	  
+	
+	/* @end */
+}
